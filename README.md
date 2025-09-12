@@ -3,7 +3,7 @@ This project demonstrates how to design and implement a Virtual Private Cloud (V
 # AWS Networking Project
 
 ## 🎯 Goal
-- Build a **resilient, production-style network** that isolates application servers in private subnets and exposes them safely via an **Application Load Balancer (ALB)** across two Availability Zones for **high availability and fault tolerance**.  
+- Build a **resilient, production-style network** that isolates application servers in private subnets and exposes them safely via an **Application Load Balancer** across two Availability Zones for **high availability and fault tolerance**.  
 - Enable **outbound internet** for private instances using **NAT Gateways** without assigning public IPs, maintaining egress while preventing unsolicited inbound traffic.  
 - Provide **controlled operator access** via a **Bastion Host** in a public subnet, acting as a secure jump point into private instances using SSH.
 
